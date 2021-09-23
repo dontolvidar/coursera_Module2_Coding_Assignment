@@ -23,18 +23,30 @@ p {
   width: 100%;
 }
 
+/* Inside each column there is a rectangulo */
 .rectangulo{
-  border: 2px solid green;
+  border: 1px solid black;
   position: relative;
-  background-color: #DDE821;
+  background-color: #00FFED;
+}
+
+/* Inside each rectangulo there is a titulo of fruit */
+.manzanas{
+  background-color: #CE0707;
+}
+.duraznos{
+  background-color: #EDAF00;
+}
+.peras{
+  background-color: #17CE07;
 }
 /* Title relative. */
 .titulo{
   position: relative;
   float: right;
-  border: 2px solid green;
-  top:-2px;
-  right: -2px;
+  border: 1px solid black;
+  top:-1px;
+  right: -1px;
   font-size: 25px;
   padding: 3px;
 }
