@@ -1,6 +1,7 @@
 
 * {
   box-sizing: border-box;
+    font-family: monospace,sans-serif,serif;
 }
 h1 {
   font-size: 35px;
@@ -12,7 +13,7 @@ h1 {
 p {
 
     clear: both;
-  font-family: Helvetica;
+
   color: black;
   padding: 15px;
 
