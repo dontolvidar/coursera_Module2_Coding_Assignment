@@ -16,12 +16,15 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  background-color: black;
 }
 
 /* Title relative. */
 .titulo{
+  position: relative;
   float: right;
+  border: 1px solid black;
+  top:-1px;
+  right: -1px;
 }
 
 /********** Large devices only **********/
